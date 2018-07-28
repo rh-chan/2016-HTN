@@ -1,0 +1,355 @@
+body {
+    background-color: #4CC4D8;
+}
+
+#container {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.logoLabel {
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -15px;
+}
+
+#container .middleLogo {
+	margin-top: 10em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+  height: 100px;
+}
+
+#container .topLogo {
+	margin-top: 5em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+  height: 100px;
+}
+s
+#main {
+	margin-top: 3em;
+	padding: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+#main button.btn-primary {
+  color: #0C2C3E;
+  background-color: white;
+  border-radius: 25px;
+  border-color: white;
+  font-weight: bold;
+  font-size: 20px;
+  width: 75%;
+}
+
+#main button.btn-success {
+  color: white;
+  border-radius: 25px;
+  border-color: white;
+  font-weight: bold;
+  font-size: 20px;
+  width: 75%;
+}
+
+#main button.btn-warning {
+  color: #white;
+  border-radius: 25px;
+  border-color: white;
+  font-weight: bold;
+  font-size: 20px;
+  width: 75%;
+  margin-top: 1em;
+}
+
+#main button.btn-info {
+  color: white;
+  margin-top: 1em;
+  background-color: #ED4297;
+  border-radius: 25px;
+  border-color: #ED4297;
+  font-weight: bold;
+  font-size: 20px;
+  width: 75%;
+}
+
+.center {
+	text-align: center;
+}
+
+input{
+    width: 80%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color:  #0c2C3E
+}
+
+/* When the input field gets focus, change its width to 100%
+input[type=search]:focus {
+  width: 75%;
+}*/
+
+.roomNumber {
+  font-weight: bold;
+  background-color: white;
+  color:  #0c2C3E;
+  padding: 5px 0px;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  background: #0C2C3E;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 22px;
+}
+
+#header p {
+  padding-left: 1.5em;
+  padding-top: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.optionList {
+  max-height: 150px;
+  overflow-y: auto;
+  background-color: white;
+  width: 80%;
+  color:  #0c2C3E;
+  margin: auto;
+  font-size: 16px;
+  text-align: left;
+  padding-right: 0.7em;
+  padding-left: 0.7em;
+}
+
+.optionList p {
+  display: inline;
+  color:#4CC4D8;
+  cursor: pointer;
+}
+
+.optionList p.name {
+  display: inline;
+  font-weight: bold;
+  padding-right: 0.7em;
+}
+.optionList p.address {
+  display: inline;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 14px;
+
+}
+.chosenList {
+  color:  #0c2C3E;
+}
+
+.restaurant {
+  border-bottom: 1px solid # #0c2C3Es;
+  padding: 0.5em 0;
+  cursor: pointer
+}
+
+.chosenRestaurant {
+  margin-top: 1em;
+  padding-top: 0.5em;
+  background-color: #0c2C3E;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding-bottom: 1em;
+}
+
+.selectedPerson {
+  margin-top: 1em;
+  padding-top: 1em;
+  background-color: #0c2C3E;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding-bottom: 1em;
+}
+.selectedContainer {
+  margin-top: 2em;
+}
+
+.columnTitle {
+  color: #0c2C3E;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.chosenList .name {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.chosenList .address {
+  color: #4CC4D8;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.chosenList .glyphicon {
+  color: #ED4297;
+  position: relative;
+  right: 10px;
+  font-size: 18px;
+}
+
+.right {
+  text-align: right;
+}
+
+#nameInput {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 1em;
+  padding: 4px 5px;
+}
+
+h2 {
+  font-weight: bold;
+  color: white;
+}
+
+.title {
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.votedRestaurant {
+  width: 80%;
+  font-size: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 1em 0;
+  background-color: #0c2C3E;
+  color: white;
+  font-weight: bold;
+  margin: auto;
+}
+
+.votedPerson {
+  width: 50%;
+  font-size: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 0.2em 0;
+  background-color: #0c2C3E;
+  color: white;
+  font-weight: bold;
+  margin: auto;
+  margin-bottom: 1em;
+  float:none;
+}
+
+.votedContainer .votedRestaurant {
+  width: 80%;
+  font-size: 16px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 0.5em 0;
+  background-color: #0c2C3E;
+  color: white;
+  font-weight: bold;
+  margin: auto;
+}
+
+.join-btn {
+  margin-top: 1em;
+}
+
+#roomInput {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 1em;
+  padding: 4px 5px;
+}
+
+
+
+.firstResult {
+  background-color: #0c2C3E;
+  width: 80%;
+  margin: auto;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 0.2em 0;
+}
+
+.firstResult h1 {
+    color: #ED4297;
+}
+
+.firstResult .address {
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+
+.react-spinner {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  top: 50%;
+  left: 50%;
+}
+
+.react-spinner_bar {
+  -webkit-animation: react-spinner_spin 1.2s linear infinite;
+  -moz-animation: react-spinner_spin 1.2s linear infinite;
+  animation: react-spinner_spin 1.2s linear infinite;
+  border-radius: 5px;
+  background-color: white;
+  position: absolute;
+  width: 20%;
+  height: 7.8%;
+  top: -3.9%;
+  left: -10%;
+}
+
+@keyframes react-spinner_spin {
+ 0% { opacity: 1; }
+ 100% { opacity: 0.15; }
+}
+
+@-moz-keyframes react-spinner_spin {
+ 0% { opacity: 1; }
+ 100% { opacity: 0.15; }
+}
+
+@-webkit-keyframes react-spinner_spin {
+ 0% { opacity: 1; }
+ 100% { opacity: 0.15; }
